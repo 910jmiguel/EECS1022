@@ -29,12 +29,16 @@ public class ICPQ0 {
 		 *    Instead, refer to the input parameters of this method.   
 		 */
 		
-
-        return true;
+		return((a == 10 && b != 10) || (a + b == 10) || (a != 10 && b == 10));
+        
 	}
 
     public static void main(String[] args) {
         System.out.println(makes10(9, 10));
+		System.out.println(makes10(9, 9));
+		System.out.println(makes10(1, 9));
+		System.out.println(makes10(10, 0));
+		System.out.println(makes10(10, 10));
     }
 
 }

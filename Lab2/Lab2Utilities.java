@@ -1,4 +1,4 @@
-package lab2;
+package Lab2;
 
 //You are NOT allowed to add any "import" statement other than 
 //the ones already in the starter files. 
@@ -14,8 +14,6 @@ package lab2;
 //piece of work is entirely of my own creation.
 //////////////////////////////
 
-
-import java.util.Random;
 public class Lab2Utilities {
 	// ALREADY IMPLEMENTED; DO NOT MODIFY
 	
